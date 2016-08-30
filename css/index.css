@@ -1,0 +1,127 @@
+.body-info{
+    margin-top: 50px;
+}
+.body-info .w{
+    height: 458px;
+
+}
+.body-info .w .news-left{
+    float: left;
+}
+.news-left,.news-middle,.news-right{
+    height:458px;
+    float: left;
+}
+.news-left{
+    width: 354px;
+}
+.news-middle{
+    width: 390px;
+}
+.news-right{
+    width: 316px;
+    background: green;
+}
+.news-left,.news-middle{
+    margin-right: 60px;
+}
+.news-left .ct{
+    height: 52px;
+    line-height: 52px;
+    vertical-align: middle;
+    border-top: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+}
+.news-left .ct a{
+    display: inline-block;
+    width: 82px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    vertical-align: middle;
+    background: #219E84;
+    border-radius: 3px;
+    font-size: 16px;
+    margin:0 3px;
+    color:#FFFFFF;
+
+}
+.news-left-list{
+    margin-top: 20px;
+}
+.news-left-list li{
+    height: 26px;
+    line-height: 26px;
+}
+.news-left-list a{
+    color:#4C4C4C ;
+}
+.news-left-list a:hover{
+    color:#767676 ;
+}
+.news-left-title{
+    padding-top: 8px;
+}
+.title-head{
+    display: table;
+}
+.title-head,.title-head span,.title-head a{
+    vertical-align: middle;
+}
+.title-head span,.title-head a{
+    display: table-cell;
+    height: 66px;
+}
+.title-head span{
+    width: 134px;
+}
+.title-head a{
+    width: 205px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.title-des{
+    border-bottom: 1px solid #d7d7d7;
+    word-wrap: break-word;
+    padding-bottom: 20px;
+}
+.news-middle{
+    border-top: 3px solid #219E84;
+}
+.news-middle-section{
+    height: 30px;
+    line-height: 30px;
+}
+.news-middle-section span,.news-middle-section a,.news-middle-section i{
+    display: inline-block;
+}
+.news-middle-section i{
+    width: 23px;
+    height: 30px;
+    background: url(i/section1.png);
+    background-repeat: no-repeat;
+    background-position: 0 8px;
+    float: left;
+    margin: 0 10px;
+
+}
+.news-middle-section span{
+    width:130px ;
+    float: left;
+    background: #219E84;
+    color: #ffffff;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.news-middle-section a{
+    width:30px ;
+    float: right;
+}
+.news-middle-title .title-head{
+    margin-top: 10px;
+}
+.news-middle-title .title-des{
+    font-weight: 100;
+    font-size: 12px;
+}
