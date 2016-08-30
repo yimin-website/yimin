@@ -49,7 +49,6 @@ a{text-decoration:none; color: #777;} a:hover{ color: #4C4C4C;}
     background: url(i/green-star.png) no-repeat;
     width: 13px;
     height: 13px;
-    display: inline-block;
 }
 
 .header-top .header-btns {
@@ -73,7 +72,6 @@ a{text-decoration:none; color: #777;} a:hover{ color: #4C4C4C;}
     top: 6px;
     width: 20px;
     height: 20px;
-    display: inline-block;
 }
 
 .header-top .header-btns .wechat-btn {
