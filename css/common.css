@@ -10,6 +10,7 @@ a{text-decoration:none; color: #777;} a:hover{ color: #4C4C4C;}
 .show{display:block;}
 .fl{float: left}
 .fr{float: right}
+.tline{border-top: 3px solid #219E84;}
 .bgGreen{background: #1d8a73;color: #ffffff}
 .bgNone{background: none;color: grey}
 .w {

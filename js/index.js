@@ -21,3 +21,14 @@ $('.news-right .ct a').on('mouseover',function(){
     $(this).addClass("bgGreen");
     $('.news-right-tab').removeClass('show').eq(index).addClass('show');
 });
+$('.body-info .w .ys-btn a').on('mouseover',function(){
+    var index = $(this).index();
+    $('.body-info .w .ys-btn a').removeClass('bt');
+    $(this).addClass("bt");
+});
+$('.ymxm li').on('mouseover',function(){
+    var index = $(this).index();
+    $('.ymxm li').removeClass('over');
+    $(this).addClass("over");
+});
+
