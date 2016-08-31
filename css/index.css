@@ -1,12 +1,14 @@
 .body-info{
     margin-top: 50px;
 }
-.body-info .w{
-    height: 458px;
-
-}
-.body-info .w .news-left{
+.body-info .news-left{
     float: left;
+}
+.body-info .news-left .news-left-tab {
+    display: none;
+}
+.body-info .news-left .news-left-tab.show {
+    display: block;
 }
 .news-left,.news-middle,.news-right{
     height:458px;

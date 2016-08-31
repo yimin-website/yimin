@@ -11,11 +11,7 @@ function indexInit(){
 indexInit();
 $('.news-left .ct a').on('mouseover',function(a,b){
     var index = $(this).index();
-    $('.news-left-tab').removeClass('show');
-    $('.news-left-tab').addClass('hide');
-    $('.news-left .ct a').removeClass('bgGreen bgNone');
-    $('.news-left .ct a').addClass('bgNone');
-    $('.news-left-tab').eq(index).addClass('show');
-    $(this).toggleClass('bgNone bgGreen');
-    console.log(this);
+    $('.news-left .ct a').removeClass('bgGreen');
+    $(this).addClass("bgGreen");
+    $('.news-left-tab').removeClass('show').eq(index).addClass('show');
 });
