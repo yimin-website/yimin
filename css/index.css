@@ -172,3 +172,9 @@
     width: 230px;
     padding-right: 10px;
 }
+.news-right-tab.show{
+    display: block;
+}
+.news-right-tab{
+    display: none;
+}

@@ -9,9 +9,15 @@ function indexInit(){
     });
 }
 indexInit();
-$('.news-left .ct a').on('mouseover',function(a,b){
+$('.news-left .ct a').on('mouseover',function(){
     var index = $(this).index();
     $('.news-left .ct a').removeClass('bgGreen');
     $(this).addClass("bgGreen");
     $('.news-left-tab').removeClass('show').eq(index).addClass('show');
+});
+$('.news-right .ct a').on('mouseover',function(){
+    var index = $(this).index();
+    $('.news-right .ct a').removeClass('bgGreen');
+    $(this).addClass("bgGreen");
+    $('.news-right-tab').removeClass('show').eq(index).addClass('show');
 });
