@@ -1,0 +1,90 @@
+.main {
+    margin-top: 35px;
+    color: #000;
+}
+
+.main .w {
+    background: #FFF;
+}
+
+.main .first-screen {
+    padding: 47px 18px;
+}
+
+.main .first-screen .left {
+    width: 494px;
+    float: left;
+}
+
+.main .first-screen .left .slider-btns {
+    margin-top: 3px;
+}
+
+.main .first-screen .left .slider-btns .btn {
+    width: 24px;
+    height: 49px;
+    color: #878787;
+    background-color: #CCC;
+    display: block;
+    text-align: center;
+    line-height: 49px;
+    font-family: simSun;
+    float: left;
+}
+
+.main .first-screen .left .slider-btns .next-btn {
+    float: right;
+}
+
+.main .first-screen .left .slider-btns .thumbs {
+    width: 430px;
+    height: 49px;
+    overflow: hidden;
+    margin-left: 8px;
+    float: left;
+}
+
+.main .first-screen .left .slider-btns .thumbs ul {
+    width: 2000px;
+}
+
+.main .first-screen .left .slider-btns .thumbs ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+.main .first-screen .left .news {
+    margin-top: 39px;
+    border-top: 2px solid #219e84;
+}
+
+
+
+
+
+
+.main .first-screen .right {
+    width: 634px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -283,3 +283,27 @@ a{text-decoration:none; color: #777;} a:hover{ color: #4C4C4C;}
     background:none;
     width: 85px;
 }
+
+
+/*绿色标题*/
+.ctitle .title {
+    background: #219e84;
+    padding: 6px 10px;
+    border-radius: 0 0 3px 3px;
+    float: left;
+    color: #EEE;
+}
+
+.ctitle .title i {
+    display: inline-block;
+    background: url(i/msg.png) no-repeat;
+    width: 20px;
+    height: 14px;
+    margin-right: 10px;
+    vertical-align: -3px;
+}
+
+.ctitle .more {
+    float: right;
+    line-height: 28px;
+}

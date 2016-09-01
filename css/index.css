@@ -180,7 +180,7 @@
 .news-right-tab{
     display: none;
 }
-/*项目优势*/
+/*锟斤拷目锟斤拷锟斤拷*/
 .body-info .w .ys-btn{
     width: 240px;
     height: 366px;
@@ -248,14 +248,15 @@
     text-align: center;
     font-size: 16px;
 }
-/*移民项目专区*/
-.tline .cf span{
-    margin-right: 20px;
+/*锟斤拷锟斤拷锟斤拷目专锟斤拷*/
+.tline .list {
+    margin-left: 10px;
+    float: left;
 }
-.tline .cf a{
-     display: inline;
+.tline .list a {
     float: none;
     margin: 0 6px;
+    line-height: 30px;
 }
 .ymxm{
     margin-top: 20px;
