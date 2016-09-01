@@ -221,7 +221,7 @@
     top: 40px;
     right: 40px;
 }
-.ys-desc .item h4,.ys-desc .item p,.ys-desc .item .btn span{
+.ys-desc .item h4,.ys-desc .item p,.ys-desc .item .btn a{
     color: #ffffff;
     background:#4C4C4C;
     border-radius: 3px;
@@ -239,7 +239,7 @@
     line-height: 26px;
     height: 130px;
 }
-.ys-desc .item .btn span{
+.ys-desc .item .btn a{
     display: inline-block;
     width: 156px;
     height: 46px;
@@ -257,23 +257,24 @@
     float: none;
     margin: 0 6px;
 }
-.ymxm{
+.ymxm,.hwfc{
     margin-top: 20px;
 }
-.ymxm li{
+.ymxm li,.hwfc li{
     width: 220px;
     height: 310px;
     padding: 7px;
-
 }
-.ymxm li img{
+.ymxm li img,.hwfc li img{
     border-radius: 3px;
 }
 .ymxm li.over{
-    border: 1px solid grey;
-    border-radius: 3px;
+    /*border: 1px solid grey;
+    border-radius: 3px;*/
+    background:url("../img/border.png") ;
+    background-repeat: no-repeat;
 }
-.ymxm h4{
+.ymxm h4,.hwfc h4{
     margin: 8px 0 2px;
     font-size: 14px;
     color: #000000;
@@ -281,7 +282,94 @@
     overflow: hidden;
     font-weight: 100px;
 }
-.ymxm p{
+.ymxm p,.hwfc p{
     margin-top: 8px;
     height: 90px;
+}
+/*海外房产*/
+.hwfc{
+    width: 940px;
+    height: 418px;
+}
+.hwfc-ad{
+    width: 224px;
+    height: 418px;
+    background: grey;
+    margin-top: 20px;
+}
+/*移民之路*/
+.ymzl{
+    width: 798px;
+    height: 350px;
+}
+.ymzl-ask{
+    width:360px ;
+    height: 350px;
+    border:1px solid grey;
+}
+.ymzl-q-a{
+    margin-top: 20px;
+}
+.ymzl-q-a li{
+    margin-bottom: 20px;
+}
+.ymzl-q-a li .ask,.ymzl-q-a li .que{
+    line-height: 30px;
+    padding-left: 60px;
+
+}
+.ymzl-q-a li .ask{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    background: url("i/icon-a.png") 20px center no-repeat;
+}
+.ymzl-q-a li .que{
+    line-height: 24px;
+    background: url("i/icon-q.png") 20px 4px no-repeat;
+}
+.ymzl-tab-btn{
+    margin: 20px 0;
+}
+.ymzl-tab-btn a{
+    display: inline-block;
+    text-align: center;
+    width: 196px;
+    height: 40px;
+    line-height: 40px;
+    background: #d7d7d7;
+    border: 1px solid #767676;
+    border-right: none;
+    font-size: 16px;
+}
+.ymzl-tab-btn a.borderEnd{
+    border-right: 1px solid #767676;
+}
+.ymzl-tab-btn a.over{
+    background: none;
+    border-bottom:none;
+    font-size: 16px;
+}
+.ymzl-hot-con{
+    margin-right: 100px;
+    width: 600px;
+    height: 66px;
+}
+.ymzl-hot-con h5{
+    font-size: 16px;
+    color: #000000;
+    height: 30px;
+}
+.ymzl-hot-list li{
+    width: 50%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px dashed lightgrey;
+}
+.ymzl-tab{
+    display: none;
+}
+.ymzl-tab.show{
+    display: block;
 }
