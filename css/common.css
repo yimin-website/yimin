@@ -261,7 +261,7 @@ p,span,a{word-wrap: break-word;}
     background: #767676;
 }
 .country-flag .w{padding-left: 40px;}
-.country-flag-tips{top: 75px;right: 0;width: 478px;}
+.country-flag-tips{top: 75px;right: 0;width: 478px;z-index: 999;}
 .country-flag .w span,#country-flag-more{
     width: 80px;
     height: 46px;

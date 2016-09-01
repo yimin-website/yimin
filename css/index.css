@@ -1,8 +1,30 @@
+@charset "UTF-8";
 .body-info{
     margin-top: 30px;
     margin-bottom: 60px;
 }
+.banner{
 
+}
+.banner img{
+    display: block;
+    width: 100%;
+}
+.bads a{
+    display: block;
+    width: 294px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    background: #4C4C4C;
+    color: #ffffff;
+    margin-right: 1px;
+}
+.bads a.over{
+    background: #219E84;
+    color: #ffffff;
+}
 .body-info .news-left{
     float: left;
 }
@@ -177,7 +199,7 @@
 .news-right-tab{
     display: none;
 }
-/*��Ŀ����*/
+/*锟斤拷目锟斤拷锟斤拷*/
 .body-info .w .ys-btn{
     width: 240px;
     height: 366px;
@@ -245,7 +267,7 @@
     text-align: center;
     font-size: 16px;
 }
-/*������Ŀר��*/
+/*锟斤拷锟斤拷锟斤拷目专锟斤拷*/
 .tline .list {
     margin-left: 10px;
     float: left;
@@ -306,7 +328,7 @@
     width: 86px;
     border-left: none;
 }
-/*���ⷿ��*/
+/*锟斤拷锟解房锟斤拷*/
 .hwfc{
     width: 940px;
     height: 418px;
@@ -324,6 +346,7 @@
     color: #1d8a73;
     font-weight: bold;
 }
+
 .hwfc li h3{
     display: inline;
     color: red;
@@ -339,7 +362,7 @@
     background: grey;
     margin-top: 20px;
 }
-/*����֮·*/
+/*锟斤拷锟斤拷之路*/
 .ymzl{
     width: 798px;
     height: 350px;
