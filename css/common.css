@@ -2,6 +2,7 @@ html,body,div,img,p,a,h1,h2,h3,h4,h5,tr,td,ul,li,dl,dd,dt,table,th,tr,td,span,in
 body{position:relative;font:12px/1.5 "Microsoft YaHei",Simsun,Arial; color: #777; background: #F8F8F8;}
 ul,ol{list-style:none;}img{border:0 none;}input,select{vertical-align:middle;}table{border-collapse:collapse;}s,em,i{font-style:normal;text-decoration:none;}
 a{text-decoration:none; color: #777;} a:hover{ color: #4C4C4C;}
+p,span,a{word-wrap: break-word;}
 .cf{*zoom:1;}.cf:after{clear:both;content:".";display:block;height:0;overflow:hidden;visibility:hidden;zoom:1;}
 .rel{position:relative;}
 .abs{position: absolute;}
@@ -13,6 +14,7 @@ a{text-decoration:none; color: #777;} a:hover{ color: #4C4C4C;}
 .tline{border-top: 3px solid #219E84;}
 .bgGreen{background: #1d8a73;color: #ffffff}
 .bgNone{background: none;color: grey}
+
 .w {
     width: 1182px;
     margin: 0 auto;
