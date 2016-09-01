@@ -80,9 +80,6 @@
     word-wrap: break-word;
     padding-bottom: 20px;
 }
-.news-middle{
-    border-top: 3px solid #219E84;
-}
 .news-middle-section{
     height: 30px;
     line-height: 30px;
@@ -287,7 +284,7 @@
     margin-top: 8px;
     height: 90px;
 }
-/*海外房产*/
+/*锟斤拷锟解房锟斤拷*/
 .hwfc{
     width: 940px;
     height: 418px;
@@ -298,7 +295,7 @@
     background: grey;
     margin-top: 20px;
 }
-/*移民之路*/
+/*锟斤拷锟斤拷之路*/
 .ymzl{
     width: 798px;
     height: 350px;

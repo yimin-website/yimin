@@ -11,7 +11,6 @@ p,span,a{word-wrap: break-word;}
 .show{display:block;}
 .fl{float: left}
 .fr{float: right}
-.tline{border-top: 3px solid #219E84;}
 .bgGreen{background: #1d8a73;color: #ffffff}
 .bgNone{background: none;color: grey}
 
@@ -288,6 +287,10 @@ p,span,a{word-wrap: break-word;}
 
 
 /*绿色标题*/
+.ctitle {
+    border-top: 2px solid #219e84;
+}
+
 .ctitle .title {
     background: #219e84;
     padding: 6px 10px;
