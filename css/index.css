@@ -112,7 +112,7 @@
 
 .news-middle-title .title-des{
     padding-top: 10px;
-    font-weight: 100;
+    font-weight: normal;
     font-size: 12px;
     border:none;
 }
@@ -228,7 +228,7 @@
     height: 42px;
     line-height: 42px;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: normal;
 }
 .ys-desc .item p{
     margin: 10px 0;
@@ -258,12 +258,16 @@
 .ymxm,.hwfc{
     margin-top: 20px;
 }
-.ymxm li,.hwfc li{
-    width: 220px;
-    height: 310px;
-    padding: 7px;
+.hwfc li img{
+    border:1px solid grey;
+    padding: 6px;
 }
-.ymxm li img,.hwfc li img{
+.ymxm li{
+    width: 224px;
+    height: 310px;
+    padding: 6px;
+}
+.ymxm li img{
     border-radius: 3px;
 }
 .ymxm li.over{
@@ -278,16 +282,56 @@
     color: #000000;
     height: 20px;
     overflow: hidden;
-    font-weight: 100px;
+    font-weight: normal;
 }
 .ymxm p,.hwfc p{
     margin-top: 8px;
-    height: 90px;
+    height: 70px;
+}
+.ymxm .field5 span{
+    color: #1d8a73;
+}
+.ymxm .field6 .tx1,.ymxm .field6 .tx2{
+    display: block;
+    border: 1px solid #AEAEAE;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.ymxm .field6 .tx1{
+    width: 130px;
+}
+.ymxm .field6 .tx2{
+    width: 86px;
+    border-left: none;
 }
 /*���ⷿ��*/
 .hwfc{
     width: 940px;
     height: 418px;
+}
+.hwfc li{
+    width: 220px;
+    height: 210px;
+    margin: 6px;
+}
+.hwfc li span{
+    display: block;
+    padding-left: 20px;
+}
+.hwfc li h4{
+    color: #1d8a73;
+    font-weight: bold;
+}
+.hwfc li h3{
+    display: inline;
+    color: red;
+    font-size: 16px;
+}
+.hwfc li .price,.hwfc li h3{
+    height: 30px;
+    line-height: 30px;
 }
 .hwfc-ad{
     width: 224px;
