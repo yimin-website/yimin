@@ -22,8 +22,10 @@ $('.body-info .w .ys-btn a').on('mouseover',function(){
 });
 //移民项目
 $('.ymxm li').on('mouseover',function(){
-    var index = $(this).index();
-    $('.ymxm li').removeClass('over').eq(index).addClass("over");
+    $(this).addClass("over");
+});
+$('.ymxm li').on('mouseout',function(){
+    $(this).removeClass("over");
 });
 //移民之路tab
 $('.ymzl-tab-btn a').on('mouseover',function(){
