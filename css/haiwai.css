@@ -57,15 +57,102 @@
     margin-top: 39px;
 }
 
+.main .first-screen .left .news .con {
+    margin-top: 22px;
+}
+
+.main .first-screen .left .news .con li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 6px;
+}
+
+.main .first-screen .left .news .con .title i {
+    color: #219E84;
+    position: absolute;
+    left: 4px;
+}
+
+.main .first-screen .left .news .con .title {
+    float: left;
+}
+
+.main .first-screen .left .news .con a:hover {
+    color: #000;
+}
 
 
-
-
+.main .first-screen .left .news .con .date {
+    float: right;
+}
 
 .main .first-screen .right {
     width: 634px;
     float: right;
 }
+
+.main .first-screen .right .h1 {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.main .first-screen .right .price-box {
+    background-color: #F7F7F7;
+    padding: 10px 20px;
+}
+
+.main .first-screen .right .price-box .price {
+    float: left;
+    font-size: 14px;
+}
+
+.main .first-screen .right .price-box .price em {
+    color: #F00;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main .first-screen .right .price-box .price .wan {
+    color: #F00;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main .first-screen .right .price-box .price .txt {
+    color: #656565;
+    font-weight: bold;
+}
+
+.main .first-screen .right .price-box .show-num {
+    float: right;
+    width: 114px;
+    border-left:1px solid #e4e4e4;
+    text-align: center;
+    font-size: 14px;
+}
+
+.main .first-screen .right .price-box .show-num .num {
+    color: #229E84;
+    font-size: 25px;
+}
+
+.main .first-screen .right .price-box .more {
+    float: right;
+    margin-top: 19px;
+    margin-right: 20px;
+}
+
+.main .first-screen .right .price-box .more .more-price {
+    color: #F00;
+}
+
+.main .first-screen .right .price-box .more .txt {
+    color: #F00;
+}
+
+
+
 
 
 
