@@ -413,3 +413,21 @@ p, span, a {
     float: right;
     line-height: 28px;
 }
+.bads{
+    margin-bottom: 40px;
+}
+.bads a{
+    display: block;
+    width: 235px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    background: #4C4C4C;
+    color: #999999;
+    margin-right: 1px;
+}
+.bads a.over{
+    background: #219E84;
+    color: #ffffff;
+}

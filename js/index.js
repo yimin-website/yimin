@@ -15,7 +15,7 @@ $('.bads a').on('click',function(){
     slider.goToSlide(i);
     $('.bads a').removeClass('over').eq(i).addClass('over');
 });
-
+//------------end baner
 $('.news-left .ct a').on('mouseover',function(){
     var index = $(this).index();
     $('.news-left .ct a').removeClass('bgGreen').eq(index).addClass("bgGreen");

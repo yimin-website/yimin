@@ -1,0 +1,48 @@
+.accordion{
+    width: 290px;
+    float: left;
+}
+.wiki-sec{
+    width: 800px;
+    float: right;
+}
+.accordion .state,.accordion .country{
+    font-weight: normal;
+}
+.accordion ul{
+    list-style: inside;
+    font-size: 16px;
+}
+.accordion .country-item li{
+    cursor: pointer;
+    padding-left: 40px;
+    height: 42px;
+    line-height: 42px;
+}
+.accordion .state{
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color:#FFFFFF ;
+    background: #4C4C4C;
+    text-align: center;
+    margin-bottom: 1px;
+}
+.accordion .country{
+    cursor: pointer;
+    background: #AEAEAE;
+    height: 48px;
+    line-height: 48px;
+    color: #222222;
+    font-size: 16px;
+    padding-left: 30px;
+    margin-bottom: 1px;
+}
+.accordion .country.over{
+    background: #219E84;
+    color: #ffffff;
+}
+.accordion .country-item{
+    display: none;
+}
+
