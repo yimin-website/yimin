@@ -1,3 +1,20 @@
+//baner
+var slider = $('.banner').bxSlider({
+    mode:'horizontal',
+    displaySlideQty:1,//显示li的个数
+    moveSlideQty: 1,//移动li的个数
+    auto: true,
+    onSlideNext:setBads
+});
+function setBads(a,b,c){
+    $('.bads a').removeClass('over').eq(c).addClass('over');
+}
+
+$('.bads a').on('click',function(){
+    var i = $(this).index();
+    slider.goToSlide(i);
+    $('.bads a').removeClass('over').eq(i).addClass('over');
+});
 (function(){
     $('#country-flag-more').on('mouseover',function(){
         $('.country-flag-tips').toggleClass('hide show');
@@ -22,8 +39,10 @@ $('.body-info .w .ys-btn a').on('mouseover',function(){
 });
 //移民项目
 $('.ymxm li').on('mouseover',function(){
-    var index = $(this).index();
-    $('.ymxm li').removeClass('over').eq(index).addClass("over");
+    $(this).addClass("over");
+});
+$('.ymxm li').on('mouseout',function(){
+    $(this).removeClass("over");
 });
 //移民之路tab
 $('.ymzl-tab-btn a').on('mouseover',function(){

@@ -1,8 +1,30 @@
+@charset "UTF-8";
 .body-info{
     margin-top: 30px;
     margin-bottom: 60px;
 }
+.banner{
 
+}
+.banner img{
+    display: block;
+    width: 100%;
+}
+.bads a{
+    display: block;
+    width: 294px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    background: #4C4C4C;
+    color: #999999;
+    margin-right: 1px;
+}
+.bads a.over{
+    background: #219E84;
+    color: #ffffff;
+}
 .body-info .news-left{
     float: left;
 }
@@ -112,7 +134,7 @@
 
 .news-middle-title .title-des{
     padding-top: 10px;
-    font-weight: 100;
+    font-weight: normal;
     font-size: 12px;
     border:none;
 }
@@ -177,7 +199,7 @@
 .news-right-tab{
     display: none;
 }
-/*��Ŀ����*/
+/*锟斤拷目锟斤拷锟斤拷*/
 .body-info .w .ys-btn{
     width: 240px;
     height: 366px;
@@ -228,7 +250,7 @@
     height: 42px;
     line-height: 42px;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: normal;
 }
 .ys-desc .item p{
     margin: 10px 0;
@@ -245,7 +267,7 @@
     text-align: center;
     font-size: 16px;
 }
-/*������Ŀר��*/
+/*锟斤拷锟斤拷锟斤拷目专锟斤拷*/
 .tline .list {
     margin-left: 10px;
     float: left;
@@ -258,12 +280,16 @@
 .ymxm,.hwfc{
     margin-top: 20px;
 }
-.ymxm li,.hwfc li{
-    width: 220px;
-    height: 310px;
-    padding: 7px;
+.hwfc li img{
+    border:1px solid grey;
+    padding: 6px;
 }
-.ymxm li img,.hwfc li img{
+.ymxm li{
+    width: 224px;
+    height: 310px;
+    padding: 6px;
+}
+.ymxm li img{
     border-radius: 3px;
 }
 .ymxm li.over{
@@ -278,16 +304,57 @@
     color: #000000;
     height: 20px;
     overflow: hidden;
-    font-weight: 100px;
+    font-weight: normal;
 }
 .ymxm p,.hwfc p{
     margin-top: 8px;
-    height: 90px;
+    height: 70px;
 }
-/*���ⷿ��*/
+.ymxm .field5 span{
+    color: #1d8a73;
+}
+.ymxm .field6 .tx1,.ymxm .field6 .tx2{
+    display: block;
+    border: 1px solid #AEAEAE;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.ymxm .field6 .tx1{
+    width: 130px;
+}
+.ymxm .field6 .tx2{
+    width: 86px;
+    border-left: none;
+}
+/*锟斤拷锟解房锟斤拷*/
 .hwfc{
     width: 940px;
     height: 418px;
+}
+.hwfc li{
+    width: 220px;
+    height: 210px;
+    margin: 6px;
+}
+.hwfc li span{
+    display: block;
+    padding-left: 20px;
+}
+.hwfc li h4{
+    color: #1d8a73;
+    font-weight: bold;
+}
+
+.hwfc li h3{
+    display: inline;
+    color: red;
+    font-size: 16px;
+}
+.hwfc li .price,.hwfc li h3{
+    height: 30px;
+    line-height: 30px;
 }
 .hwfc-ad{
     width: 224px;
@@ -295,7 +362,7 @@
     background: grey;
     margin-top: 20px;
 }
-/*����֮·*/
+/*锟斤拷锟斤拷之路*/
 .ymzl{
     width: 798px;
     height: 350px;
@@ -334,13 +401,13 @@
     width: 196px;
     height: 40px;
     line-height: 40px;
-    background: #d7d7d7;
-    border: 1px solid #767676;
+    background: #eeeeee;
+    border: 1px solid #e0e0e0;
     border-right: none;
     font-size: 16px;
 }
 .ymzl-tab-btn a.borderEnd{
-    border-right: 1px solid #767676;
+    border-right: 1px solid #e3e6ed;
 }
 .ymzl-tab-btn a.over{
     background: none;
