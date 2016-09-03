@@ -2,10 +2,7 @@
     width: 290px;
     float: left;
 }
-.wiki-sec{
-    width: 800px;
-    float: right;
-}
+
 .accordion .state,.accordion .country{
     font-weight: normal;
 }
@@ -46,3 +43,145 @@
     display: none;
 }
 
+.wiki-sec{
+    width: 860px;
+    float: right;
+}
+.wiki-sec .titl-wrap{
+    background: #EEEEEE;
+}
+.wiki-sec .content{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.wiki-sec .content img{
+    vertical-align: middle;
+}
+.wiki-sec .content .cts{
+    float: right;
+    display: inline-block;
+    width: 612px;
+}
+.wiki-sec .content h4{
+    font-size: 18px;
+    color: #229e84;
+    margin-bottom: 10px;
+
+}
+.wiki-sec .content p{
+    color: #9a9a9a;
+}
+.wiki-sec .other{
+    height: 40px;
+    padding-left: 20px;
+    border-top: 1px dashed #9a9a9a;
+}
+.wiki-sec .other .icon1,.wiki-sec .other .icon2,.wiki-sec .other .icon3,.wiki-sec .other .icon4{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 25px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.wiki-sec .other .icon1{
+    background: url("i/wiki_1.png");
+    background-position: 0 center;
+    background-repeat: no-repeat;
+}
+.wiki-sec .other .icon2{
+    background: url("i/wiki_2.png");
+    background-position: 0 center;
+    background-repeat: no-repeat;
+}
+.wiki-sec .other .icon3{
+    background: url("i/wiki_3.png");
+    background-position: 0 center;
+    background-repeat: no-repeat;
+}
+.wiki-sec .other .icon4{
+    background: url("i/wiki_4.png");
+    background-position: 0 center;
+    background-repeat: no-repeat;
+}
+.wiki-item{
+    margin-top: 20px;
+    background: url("i/wiki-5.png");
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    border-bottom: 3px solid #3f4244;
+}
+.wiki-item h5{
+    font-size: 25px;
+    display: inline-block;
+    border-bottom: 3px solid #219E84;
+    padding-left: 75px;
+    font-weight: normal;
+}
+.wiki-item,.wiki-item h5{
+    height: 60px;
+    line-height: 60px;
+}
+.wiki-list{
+
+}
+.wiki-list .listL,.wiki-list .listR{
+    width: 385px;
+}
+.wiki-list .list-ti{
+    border-bottom:1px solid #3f4244 ;
+}
+
+.wiki-list h5{
+    font-weight: normal;
+    display: inline-block;
+    font-size: 20px;
+    border-bottom:1px solid #219e84 ;
+}
+.wiki-list .list-ti,.wiki-list h5{
+    height: 50px;
+    line-height: 50px;
+}
+.wiki-list .ti2{
+    background: url("i/wiki-6.png");
+    background-position: 0 center;
+    background-repeat: no-repeat;
+}
+.wiki-list .ti2 h5{
+    padding-left: 50px;
+    font-size: 25px;
+}
+.wiki-list .list-wrap{
+    margin: 20px 0;
+}
+.wiki-list .list-wrap a{
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    background: url("i/dot_r.png");
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    padding-left: 20px;
+}
+.wiki-banner{
+    margin: 30px 0;
+}
+.wiki-list .img-wrap a{
+    background: none;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.wiki-list .img-wrap img{
+    vertical-align:middle;
+}
+.wiki-list .img-wrap .pro{
+    display: inline-block;
+    vertical-align:middle;
+    padding-left: 10px;
+
+}
+.wiki-list .img-wrap h3,.wiki-list .img-wrap h4{
+    font-weight: normal;
+    font-size: 14px;
+}

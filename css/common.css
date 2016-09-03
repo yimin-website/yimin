@@ -197,6 +197,8 @@ p, span, a {
 .top-nav {
     height: 47px;
     background: #219E84;
+    min-width: 1182px;
+
 }
 
 .top-nav ul {
@@ -334,7 +336,9 @@ p, span, a {
     line-height: 24px;
     font-weight: bold;
 }
-
+.country-flag,.footer{
+    min-width: 1182px;
+}
 .country-flag, .country-flag .w, .country-flag-tips {
     height: 75px;
     line-height: 75px;
@@ -349,8 +353,8 @@ p, span, a {
 }
 
 .country-flag-tips {
-    top: 75px;
-    right: 0;
+    top: 46px;
+    right: 12px;
     width: 478px;
     z-index: 999;
     display: none;
@@ -358,7 +362,7 @@ p, span, a {
 
 .country-flag .w span /*,#country-flag-more*/
 {
-    width: 80px;
+    width: 78px;
     height: 46px;
     line-height: 46px;
     text-align: center;
@@ -386,7 +390,9 @@ p, span, a {
 #country-flag-more:hover .country-flag-tips {
     display: block;
 }
-
+#country-flag-more{
+    position: relative;
+}
 /*绿色标题*/
 .ctitle {
     border-top: 2px solid #219e84;
@@ -430,4 +436,11 @@ p, span, a {
 .bads a.over{
     background: #219E84;
     color: #ffffff;
+}
+.banner{
+    /*min-width: 1182px;*/
+}
+.banner img{
+    display: block;
+    width: 100%;
 }

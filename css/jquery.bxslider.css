@@ -19,6 +19,7 @@
 	margin: 0 auto 0px;
 	padding: 0;
 	*zoom: 1;
+	min-width: 1182px;
 }
 
 .bx-wrapper img {
@@ -133,6 +134,9 @@
 	display: none;
 }
 
+.bx-controls-direction{
+	display: none;
+}
 /* AUTO CONTROLS (START / STOP) */
 
 .bx-wrapper .bx-controls-auto {
