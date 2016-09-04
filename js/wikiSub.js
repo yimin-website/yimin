@@ -1,21 +1,4 @@
-//baner
-var slider = $('.banner').bxSlider({
-    mode:'horizontal',
-    displaySlideQty:1,//��ʾli�ĸ���
-    moveSlideQty: 1,//�ƶ�li�ĸ���
-    auto: true,
-    onSlideNext:setBads
-});
-function setBads(a,b,c){
-    $('.bads a').removeClass('over').eq(c).addClass('over');
-}
 
-$('.bads a').on('click',function(){
-    var i = $(this).index();
-    slider.goToSlide(i);
-    $('.bads a').removeClass('over').eq(i).addClass('over');
-});
-//------------end baner
 //-----------start 页面tab
 var oIndex = 0;
 $('.country').eq(0).addClass('over').next().slideDown('fast');
