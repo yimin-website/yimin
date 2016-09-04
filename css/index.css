@@ -264,16 +264,17 @@
     padding: 6px;
 }
 .ymxm li{
-    width: 224px;
+    width: 234px;
     height: 310px;
-    padding: 6px;
 }
 .ymxm li img{
     border-radius: 3px;
 }
-.ymxm li.over{
-    /*border: 1px solid grey;
-    border-radius: 3px;*/
+.ymxm li a{
+    padding: 6px;
+    display: block;
+}
+.ymxm li a:hover{
     background:url("../img/border.png") ;
     background-repeat: no-repeat;
 }
@@ -292,6 +293,12 @@
 .ymxm .field5 span{
     color: #1d8a73;
 }
+.ymxm .field5 .fr{
+    padding-left: 26px;
+    background: url("i/dollar.png");
+    background-repeat: no-repeat;
+    background-position: 0px center;
+}
 .ymxm .field6 .tx1,.ymxm .field6 .tx2{
     display: block;
     border: 1px solid #AEAEAE;
@@ -302,10 +309,17 @@
 }
 .ymxm .field6 .tx1{
     width: 130px;
+    background: url("i/touziyimin.png");
+    background-repeat: no-repeat;
+    background-position: 20px center;
 }
 .ymxm .field6 .tx2{
-    width: 86px;
+    width: 70px;
     border-left: none;
+    padding-left: 16px;
+    background: url("i/play.png");
+    background-repeat: no-repeat;
+    background-position: 16px center;
 }
 /*锟斤拷锟解房锟斤拷*/
 .hwfc{
@@ -320,6 +334,9 @@
 .hwfc li span{
     display: block;
     padding-left: 20px;
+    background: url("i/arrow.png");
+    background-repeat: no-repeat;
+    background-position: 0 center;
 }
 .hwfc li h4{
     color: #1d8a73;
