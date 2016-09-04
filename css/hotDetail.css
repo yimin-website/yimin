@@ -1,0 +1,307 @@
+.main {
+    margin-top: 35px;
+    color: #000;
+}
+
+.main .w {
+    background: #FFF;
+}
+
+.main .first-screen {
+    padding: 47px 18px;
+}
+.main .second-screen{
+    padding: 20px 18px 40px;
+}
+.main .first-screen .left {
+    width: 494px;
+    float: left;
+}
+
+
+.main .first-screen .left .news {
+    margin-top: 39px;
+}
+
+.main .first-screen .left .news .con {
+    margin-top: 22px;
+}
+
+.main .first-screen .left .news .con li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 6px;
+}
+
+.main .first-screen .left .news .con .title i {
+    color: #219E84;
+    position: absolute;
+    left: 4px;
+}
+
+.main .first-screen .left .news .con .title {
+    float: left;
+}
+
+.main .first-screen .left .news .con a:hover {
+    color: #000;
+}
+
+
+.main .first-screen .left .news .con .date {
+    float: right;
+}
+
+.main .first-screen .right {
+    width: 634px;
+    float: right;
+}
+
+.main .first-screen .right .h1 {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.main .first-screen .right .price-box {
+    background-color: #F7F7F7;
+    padding: 10px 20px;
+}
+
+.main .first-screen .right .price-box .price {
+    float: left;
+    font-size: 14px;
+}
+
+.main .first-screen .right .price-box .price em {
+    color: #F00;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main .first-screen .right .price-box .price .wan {
+    color: #F00;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main .first-screen .right .price-box .price .txt {
+    color: #656565;
+    font-weight: bold;
+}
+
+.main .first-screen .right .price-box .show-num {
+    float: right;
+    width: 114px;
+    border-left:1px solid #e4e4e4;
+    text-align: center;
+    font-size: 14px;
+}
+
+.main .first-screen .right .price-box .show-num .num {
+    color: #229E84;
+    font-size: 25px;
+}
+
+.main .first-screen .right .price-box .more {
+    float: right;
+    margin-top: 19px;
+    margin-right: 20px;
+}
+
+.main .first-screen .right .price-box .more .more-price,
+.main .first-screen .right .price-box .more .txt {
+    color: #F00;
+}
+.right .btn-box{
+    margin: 40px 0 0;
+    border-bottom:1px dashed #CCCCCC ;
+    padding-bottom: 40px;
+}
+.right .para{
+    float: left;
+}
+.right .para{
+    color: #000000;
+    font-size: 14px;
+    list-style: inside;
+    width: 460px;
+}
+.right .para li{
+    width: 220px;
+    float: left;
+}
+.right .subtn{
+    display: block;
+    width: 110px;
+    height: 50px;
+    line-height: 50px;
+    float: right;
+    border-radius: 3px;
+    background: url("i/baoming.png") no-repeat 20px center #219E84;
+    padding-left: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.right .desc{
+    margin: 20px 0;
+    line-height: 24px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #d7d7d7;
+}
+.secL{
+    width: 315px;
+    float: left;
+}
+.sec-l1 .ctitle{
+    height: 30px;
+    border: none;
+    background: #3e4245;
+    margin: 20px 0;
+}
+
+.sec-l1 .title{
+    background: #219E84;
+    border: none;
+    border-radius: 0;
+    color: #ffffff;
+    font-weight: bold;
+    padding-right: 40px;
+
+}
+.sec-l1 .more{
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+
+.case-con .row1{
+    margin: 20px 0;
+}
+.case-con .row1 div{
+    width: 160px;
+    height: 85px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.case-con .row1 div,.case-con .row1 img{
+    vertical-align: middle;
+}
+.case-con .row1 h4{
+    font-size: 14px;
+    color: #000000;
+}
+.case-con .row2 a{
+    font-size: 14px;
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    background: url("i/list-icon.png");
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    padding-left: 24px;
+}
+
+.logo2{
+    text-align: center;
+    padding: 30px 0;
+}
+.intro{
+    font-size: 14px;
+    line-height: 24px;
+    color: grey;
+    text-align: justify;
+}
+
+.secR{
+    float: right;
+    width: 786px;
+}
+
+
+
+/*ÒÆÃñÏîÄ¿*/
+.ymxm{
+    margin-top: 20px;
+}
+.ymxm li{
+    width: 234px;
+    height: 310px;
+    margin: 0 42px 0 0;
+}
+.ymxm li.fr{
+    margin: 0;
+}
+.ymxm li img{
+    border-radius: 3px;
+}
+.ymxm li a{
+    padding: 6px;
+    display: block;
+}
+.ymxm li a:hover{
+    background:url("../img/border.png") ;
+    background-repeat: no-repeat;
+}
+
+.ymxm h4,.hwfc h4{
+    margin: 8px 0 2px;
+    font-size: 14px;
+    color: #000000;
+    height: 20px;
+    overflow: hidden;
+    font-weight: normal;
+}
+.ymxm p,.hwfc p{
+    margin-top: 8px;
+    height: 70px;
+}
+.ymxm .field5 span{
+    color: #1d8a73;
+}
+.ymxm .field5 .fr{
+    padding-left: 26px;
+    background: url("i/dollar.png");
+    background-repeat: no-repeat;
+    background-position: 0px center;
+}
+.ymxm .field6 .tx1,.ymxm .field6 .tx2{
+    display: block;
+    border: 1px solid #AEAEAE;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.ymxm .field6 .tx1{
+    width: 130px;
+    background: url("i/touziyimin.png");
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+.ymxm .field6 .tx2{
+    width: 70px;
+    border-left: none;
+    padding-left: 16px;
+    background: url("i/play.png");
+    background-repeat: no-repeat;
+    background-position: 16px center;
+}
+
+.secR .case-con{
+    font-size: 14px;
+    color: #848484;
+    margin: 30px 0;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
