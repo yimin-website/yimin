@@ -1,0 +1,23 @@
+.about{
+    width: 1182px;
+    height: 440px;
+    margin: 20px auto;
+    color: #ffffff;
+    background: #767676;
+
+}
+.about h1{
+    font-size: 32px;
+    padding: 140px 0 40px;
+}
+.about .con{
+    font-size: 14px;
+    width: 540px;
+    margin: 0 auto;
+}
+.about h1,.about .con{
+    text-align: center;
+}
+.main{
+    margin: 35px auto;
+}
