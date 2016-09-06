@@ -107,6 +107,7 @@ p, span, a {
 
 .header-top {
     height: 136px;
+    padding: 0 32px 0 10px;
 }
 
 .header-top .logo {
@@ -234,6 +235,10 @@ p, span, a {
     height: 30px;
     background: #FFF;
     margin-top: 9px;
+    margin-right: 32px;
+}
+.top-nav .menu{
+    padding-left: 10px;
 }
 
 .top-nav .search input {
@@ -349,12 +354,15 @@ p, span, a {
 }
 
 .country-flag .w {
-    padding-left: 40px;
+    width: 1182px;
 }
-
+.country-flag .w .secr{
+    float: right;
+    padding-right: 32px;
+}
 .country-flag-tips {
     top: 46px;
-    right: 12px;
+    right: 0px;
     width: 478px;
     z-index: 999;
     display: none;
@@ -367,7 +375,7 @@ p, span, a {
     line-height: 46px;
     text-align: center;
     display: inline-block;
-    margin: 0 17px;
+    margin-left:32px;
     background: #AEAEAE;
     color: #fff;
 }
@@ -432,6 +440,10 @@ p, span, a {
     background: #4C4C4C;
     color: #999999;
     margin-right: 1px;
+}
+.bads a.end{
+    margin-right: 0;
+    width: 238px;
 }
 .bads a.over{
     background: #219E84;
