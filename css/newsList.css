@@ -1,124 +1,213 @@
 /*select start*/
-.ui-select-trigger{ display:inline-block;vertical-align:top;border:1px solid #000;cursor:pointer;position:relative;}
-.ui-select-trigger span{font-size: 12px;color:#ffffff;padding:0 15px 0 10px;display: block;  white-space: nowrap;overflow: hidden;text-overflow:ellipsis;background: #219E84}
-.ui-select-trigger.active{border-color:#000;}
-.ui-select-trigger.active i,.ui-select-trigger:hover i{border-top-color: #000;}
-.ui-select{position:absolute;display:none;border:1px solid #000;min-height: 10px;background-color: #fefefe;overflow-y:auto;}
-.ui-select-trigger i{position:absolute;right:5px;width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:7px solid #000;top:5px;}
-.ui-select-content{list-style: none;padding:0;font-size: 12px;margin:0;color:#666;}
-.ui-select-content li{padding:0px 10px;overflow: hidden;word-break: break-all;line-height: 1.3;cursor: pointer;}
-.ui-select-content li:not(.ui-select-item-disabled):hover{background-color: #f2f2f2;}
-.ui-select-content li.ui-select-item-disabled{color:#ccc;cursor:not-allowed; }
-.ui-select-content li.ui-select-item-selected,.ui-select-content li.ui-select-item-selected:hover{background-color: #2ea3d0;color:#fff;}
-.ui-select-disabled{background-color:#ddd;cursor:not-allowed;}
-.ui-select-disabled span{color:#999;}
-.ui-select-disabled i{border-top-color: #ccc;}
+.ui-select-trigger {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #000;
+    cursor: pointer;
+    position: relative;
+}
+
+.ui-select-trigger span {
+    font-size: 12px;
+    color: #ffffff;
+    padding: 0 15px 0 10px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #219E84
+}
+
+.ui-select-trigger.active {
+    border-color: #000;
+}
+
+.ui-select-trigger.active i, .ui-select-trigger:hover i {
+    border-top-color: #000;
+}
+
+.ui-select {
+    position: absolute;
+    display: none;
+    border: 1px solid #000;
+    min-height: 10px;
+    background-color: #fefefe;
+    overflow-y: auto;
+}
+
+.ui-select-trigger i {
+    position: absolute;
+    right: 5px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #000;
+    top: 5px;
+}
+
+.ui-select-content {
+    list-style: none;
+    padding: 0;
+    font-size: 12px;
+    margin: 0;
+    color: #666;
+}
+
+.ui-select-content li {
+    padding: 0px 10px;
+    overflow: hidden;
+    word-break: break-all;
+    line-height: 1.3;
+    cursor: pointer;
+}
+
+.ui-select-content li:not(.ui-select-item-disabled):hover {
+    background-color: #f2f2f2;
+}
+
+.ui-select-content li.ui-select-item-disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.ui-select-content li.ui-select-item-selected, .ui-select-content li.ui-select-item-selected:hover {
+    background-color: #2ea3d0;
+    color: #fff;
+}
+
+.ui-select-disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.ui-select-disabled span {
+    color: #999;
+}
+
+.ui-select-disabled i {
+    border-top-color: #ccc;
+}
+
 /*----------------end select*/
-.main{
+.main {
     width: 1182px;
+    padding-top: 30px;
     margin: 0px auto;
 }
-.main .sectionL{
+
+.main .sectionL {
     float: left;
     width: 790px;
     border-right: 1px solid #CCCCCC;
 }
-.main .sectionL .uform{
+
+.main .sectionL .uform {
     height: 50px;
     border-bottom: 1px solid #CCCCCC;
     margin-top: 20px;
     position: relative;
 }
-.main .sectionL .uform select{
+
+.main .sectionL .uform select {
     width: 170px;
     border: 1px solid #000000;
     background: #1d8a73;
     color: #FFFFFF;
 }
-.main .sectionL .uform select{
+
+.main .sectionL .uform .uinput{
+    border: 1px solid #000000;
     height: 26px;
     line-height: 26px;
-    vertical-align: top;
+    display: inline-block;
 }
-.main .sectionL .uform a{
-    height: 26px;
-    line-height: 26px;
-}
-.main .sectionL .uform input{
-    height: 24px;
-    line-height: 24px;
-    vertical-align: top;
-}
-.main .sectionL .uform input{
+.main .sectionL .uform input {
+
     width: 280px;
     outline: none;
     text-indent: 10px;
+    border: none;
 }
-.main .sectionL .uform a{
+.main .sectionL .uform select,.main .sectionL .uform input,.main .sectionL .uform a{
+    height: 26px;
+    line-height: 26px;
+    vertical-align: top;
+
+}
+.main .sectionL .uform a {
     display: inline-block;
     padding: 0 16px;
-    border: 1px solid #000000;
-    border-left: none;
     background: #1d8a73;
     color: #ffffff;
 }
 
-.main .sectionL .ulist li{
+.main .sectionL .ulist li {
     position: relative;
     padding: 50px 50px 36px 0px;
     border-bottom: 1px dashed #CCCCCC;
 }
-.main .sectionL .ulist li h4{
+
+.main .sectionL .ulist li h4 {
     font-size: 20px;
     color: #000000;
     font-weight: normal;
 }
-.main .sectionL .ulist li p{
+
+.main .sectionL .ulist li p {
     line-height: 30px;
     padding-left: 66px;
     font-size: 14px;
 }
-.main .sectionL .ulist li span,.main .sectionL .ulist li i{
+
+.main .sectionL .ulist li span, .main .sectionL .ulist li i {
     display: inline-block;
     padding: 0 6px;
 }
-.main .sectionL .ulist li .cdate{
+
+.main .sectionL .ulist li .cdate {
     position: absolute;
     width: 80px;
     right: 30px;
     top: 60px;
     font-size: 14px;
 }
-.main .sectionL .ulist li em{
+
+.main .sectionL .ulist li em {
     display: inline-block;
     width: 55px;
     height: 30px;
     line-height: 30px;
     color: #000000;
     text-align: right;
-    padding-right:6px;
+    padding-right: 6px;
     font-size: 14px;
 }
+
 /*显示置顶图标*/
-.main .sectionL .ulist li em.upflag{
+.main .sectionL .ulist li em.upflag {
     color: #ffffff;
     background: url("i/flag.png") no-repeat 10px center;;
 }
-.main .sectionL .ulist li .cdate i{
+
+.main .sectionL .ulist li .cdate i {
     background: url("i/link.png") no-repeat right center;
     padding-right: 20px;
 }
-.main .sectionR{
-    float:right;
+
+.main .sectionR {
+    float: right;
     width: 360px;
 }
+
 /*右侧新闻*/
-.case-con h4{
+.case-con h4 {
     font-size: 18px;
     color: #000000;
     padding: 20px 0;
 }
-.case-con .row2 a{
+
+.case-con .row2 a {
     font-size: 14px;
     display: block;
     height: 24px;
@@ -129,39 +218,47 @@
     padding-left: 24px;
     color: #000000;
 }
-.ctitle{
+
+.ctitle {
     border: none;
     border-bottom: 3px solid #219d83;
 }
-.ctitle .title{
+
+.ctitle .title {
     font-weight: bold;
     font-size: 20px;
     color: #219d83;
     background: none;
 }
-.ctitle .more{
+
+.ctitle .more {
     line-height: 40px;
     color: #000000;
 }
-.ctitle .more:hover{
+
+.ctitle .more:hover {
     color: #4C4C4C;
 }
-.unews{
+
+.unews {
     padding-bottom: 30px;
 }
-.pager{
+
+.pager {
     width: 600px;
     margin: 20px auto;
     font-size: 16px;
 }
-.pager span,.pager a{
+
+.pager span, .pager a {
     cursor: pointer;
     border: 1px solid #dedede;
     display: inline-block;
     padding: 6px 8px;
     margin: 0 4px;
 }
-.pager a.on,.pager a:hover{
+
+.pager a.on, .pager a:hover {
     background: #219d83;
     color: #ffffff;
 }
